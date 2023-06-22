@@ -1,0 +1,10 @@
+from qiskit.aqua.algorithms import Shor
+
+def run_shor_algorithm(number_to_factor):
+    shor = Shor(number_to_factor)
+    result_dict = shor.run(quantum_instance)
+    return result_dict['factors']
+
+number_to_factor = 15
+factors = run_shor_algorithm(number_to_factor)
+print(factors)
