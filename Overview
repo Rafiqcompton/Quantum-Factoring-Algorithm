@@ -1,0 +1,2 @@
+Shor's algorithm is a quantum algorithm for factoring integers that runs in polynomial time, specifically O((log N)^2 (log log N) (log log log N)), where N is the number to factorize. 
+This is exponentially faster than the best known classical factoring algorithm.
